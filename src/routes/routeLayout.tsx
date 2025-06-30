@@ -5,7 +5,7 @@ function RouteLayout() {
   return (
     <>
       <div>
-        <span className='text-red-900 font-bold'>TEST BROWSER-ROUTER-DOM</span>
+        <span className='text-red-900 font-bold'>TEST PATH</span>
     
       </div>
       <h1>Vite + React</h1>

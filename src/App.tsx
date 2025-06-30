@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 import './App.css'
-import RouteLayout from './routes/routeLayout';
 
+import RouteLayout from '@/routes/routeLayout';
 
 function App() {
   return (
