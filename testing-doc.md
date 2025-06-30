@@ -26,6 +26,8 @@ test result:
 test senario: 
     install @supabase/supabase-js and test API request
 test date:
-    June 30, 2025 8:45PM
+    June 30, 2025 9:00PM
+test actual result:
+    Uncaught Error: supabaseUrl is required.
 test result: 
-    PASSED
+    FAILED

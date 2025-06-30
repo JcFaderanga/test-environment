@@ -1,13 +1,24 @@
 import { useEffect, useState } from "react"
-import supabase from "@/lib/supabase"
+import supabase,{ supabaseUrl, supabaseAnonKey } from "@/lib/supabase"
+
 function RouteLayout() {
   const [count, setCount] = useState(0)
   const [items, setData] = useState<any>('')
+
+  console.log(supabaseUrl)
+console.log(supabaseAnonKey)
 console.log(items)
+
   useEffect(()=>{
     async function getData(){
-    const {data} = await supabase.from('items').select('*');
+    try{
+    const {error, data} = await supabase.from('items').select('*');
+    if(error) console.error(error);
       setData(data)
+    }catch(e){
+      console.error(e)
+    }
+    
   }
   getData();
   },[])
