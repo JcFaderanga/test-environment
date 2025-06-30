@@ -18,6 +18,14 @@ test result:
 test senario: 
     install path and --save-dev @types/node and try to call component using "@"
 test date:
-    June 30, 2025 8:31PM
+    June 30, 2025 8:45PM
+test result: 
+    PASSED
+
+# test 4
+test senario: 
+    install @supabase/supabase-js and test API request
+test date:
+    June 30, 2025 8:45PM
 test result: 
     PASSED
