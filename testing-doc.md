@@ -31,3 +31,13 @@ test actual result:
     Uncaught Error: supabaseUrl is required.
 test result: 
     FAILED
+
+# test 5
+test senario: 
+    re-test Test 4
+test date:
+    June 30, 2025 9:15PM
+test actual result:
+    Uncaught Error: supabaseUrl is required. duplicated error
+test result: 
+    FAILED
